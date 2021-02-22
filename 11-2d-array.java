@@ -31,13 +31,8 @@ public class Solution {
     }
     
     public static int hourGlass(int[][] arr) {
-        
-        int rows = arr.length;
-        int cols = arr[0].length;
-        
         int max = 0;
 
-        
         for (int i = 0; i < arr.length-2; i++) { 
             for (int j = 0; j < arr[0].length-2; j++) {
                 int chunkMax = 0;
@@ -52,8 +47,7 @@ public class Solution {
                     // row 3 col 1-3
                     arr[i+2][j] +
                     arr[i+2][j+1] +
-                    arr[i+2][j+2]
-                ;
+                    arr[i+2][j+2];
                 
                 if (chunkMax > max) {
                     max = chunkMax;        
