@@ -3,9 +3,6 @@ class Student extends Person{
     
     Student(String firstName, String lastName, int idNumber, int[] testScores) {
         super(firstName, lastName, idNumber);
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.idNumber = idNumber;
         this.testScores = testScores;
     }
     
@@ -37,3 +34,5 @@ class Student extends Person{
         return grade;
         
     }
+
+}
