@@ -1,8 +1,8 @@
 class Difference {
-  	private int[] elements;
-  	public int maximumDifference;
+  private int[] elements;
+  public int maximumDifference;
 
-	// Add your code here
+    // Add your code here
     Difference(int[] els) {
         this.elements = els;
     }
