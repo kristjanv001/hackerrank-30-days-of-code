@@ -2,4 +2,4 @@
 
 I ❤️ Java!
 
-When I have time I do some fun challenges on Hackerrank. I share my solutions here. 
+I finished the 30 days of code on Hackerrank. I uploaded most of my solutions.
